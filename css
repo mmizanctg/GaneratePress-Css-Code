@@ -1,0 +1,95 @@
+/* CSS Code By esellbazarbd.com*/
+
+body{
+	background:#fff;
+}
+
+.separate-containers .site-main {
+	margin-right:50px;
+}
+
+/* Main Header*/
+.site-header{
+	box-shadow:0 5px 20px -10px #656565;
+	margin-bottom:30px;
+}
+
+.inside-header{
+	padding:15px;
+}
+
+.main-navigation, .main-navigation ul ul {
+    background-color: #ffffff00;
+}
+
+/* Navigation Menu Link*/
+.main-navigation .main-nav ul li a, .menu-toggle {
+    color: #404040;
+		font-weight:600;
+}
+
+/*Current Navigation Menu*/
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+	background:transparent;
+	color:#000;
+	border-bottom: 2px solid #404040;
+}
+
+/* Post box */
+.inside-article{
+	border:1px solid #e1e1e1;	
+	box-shadow: 10px 15px 20px -15px #5a5a5a75;
+}
+
+/* Remove Catergory and Comments*/
+.entry-meta{
+	display:none;
+}
+
+/*Read More Button*/
+.read-more {
+    display: block;
+    margin-top: 20px;
+    background: #1e73be;
+    width: max-content;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 20px -5px #5a5a5a75;
+}
+.read-more:hover{
+	transition:0.3s;
+	box-shadow:none;
+}
+
+/* Sidebar Widget */
+.sidebar .widget {
+    background-color: #e4e4e4;
+}
+
+/* Sidebar Widget Title */
+.sidebar .widget .widget-title {
+    color: #ffffff;
+    background: #1e73be;
+    margin-top: -40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*Hide Thumbnail From Single Page*/
+.single .size-full{
+	display:none;
+}
+
+@media only screen and (max-width: 600px) {
+	.site-content {
+			word-wrap: break-word;
+			padding: 10px;
+	}
+}
